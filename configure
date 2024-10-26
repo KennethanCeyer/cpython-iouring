@@ -814,6 +814,8 @@ MODULE__BISECT_FALSE
 MODULE__BISECT_TRUE
 MODULE__ASYNCIO_FALSE
 MODULE__ASYNCIO_TRUE
+MODULE__ASYNCIOURING_FALSE
+MODULE__ASYNCIOURING_TRUE
 MODULE_ARRAY_FALSE
 MODULE_ARRAY_TRUE
 MODULE_TIME_FALSE
@@ -33688,4 +33690,3 @@ if test "$ac_cv_header_stdatomic_h" != "yes"; then
   { printf "%s\n" "$as_me:${as_lineno-$LINENO}: Your compiler or platform does have a working C11 stdatomic.h. A future version of Python may require stdatomic.h." >&5
 printf "%s\n" "$as_me: Your compiler or platform does have a working C11 stdatomic.h. A future version of Python may require stdatomic.h." >&6;}
 fi
-

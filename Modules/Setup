@@ -131,6 +131,7 @@ PYTHONPATH=$(COREPYTHONPATH)
 # Modules that should always be present (POSIX and Windows):
 
 #_asyncio _asynciomodule.c
+#_asynciouring _asynciouringmodule.c
 #_bisect _bisectmodule.c
 #_contextvars _contextvarsmodule.c
 #_csv _csv.c
